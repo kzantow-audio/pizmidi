@@ -1,4 +1,4 @@
-#include "public.sdk/source/vst2.x/audioeffect.h"
+#include "audioeffect.h"
 #include "pizvstbase.h"
 
 #if defined(_WIN32) && defined (_DEBUG)
@@ -169,10 +169,11 @@ bool getAppDataPath( char* path, const char* name)
 
 bool getInstancePath( char* outInstancePath, char* fileName, bool hostpath)
 {
-	if ( outInstancePath == NULL || fileName == NULL ) return;
+	if ( outInstancePath == NULL || fileName == NULL ) return false;
 
 	strcpy(outInstancePath,"~/.pizmidi/");
 	strcpy(fileName,"?");
+	return true;
 }
 #else 
 //mac

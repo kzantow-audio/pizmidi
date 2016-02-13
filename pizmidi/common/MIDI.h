@@ -1,7 +1,8 @@
 #ifndef MIDI_H
 #define MIDI_H
-#include "public.sdk/source/vst2.x/audioeffectx.h"
+#include "audioeffectx.h"
 #include <string>
+#include <cstdio>
 
 //
 // MIDI Status Bytes --------------------------------------------------------------

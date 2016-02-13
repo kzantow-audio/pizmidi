@@ -9,7 +9,7 @@ Originally based on:
 #define __PIZ_MIDI_PLUGIN_H
 
 #include <algorithm>
-#include "public.sdk/source/vst2.x/audioeffectx.h"
+#include "audioeffectx.h"
 #include "MIDI.h"
 #include "pizvstbase.h"
 #include "PizPluginInfo.h"

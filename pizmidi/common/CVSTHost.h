@@ -32,7 +32,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
 
 #endif
 
-#include "public.sdk/source/vst2.x/audioeffectx.h"
+#include "audioeffectx.h"
 
 #if defined(VST_2_4_EXTENSIONS)
 #else
@@ -234,7 +234,7 @@ enum VstAutomationStates                /* V2.4 automation state definitions */
 #endif
 
 #if defined(VST_2_4_EXTENSIONS)
-#include "public.sdk/source/vst2.x/aeffeditor.h"
+#include "aeffeditor.h"
 #else
 #include "AEffEditor.hpp"
 #endif

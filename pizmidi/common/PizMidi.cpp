@@ -4,8 +4,8 @@
 PizMidi::PizMidi(audioMasterCallback audioMaster, VstInt32 numPrograms, VstInt32 numParams)
 	: AudioEffectX(audioMaster, numPrograms, numParams),
 	  _midiEventsIn(0),
-	  _midiEventsOut(0),
       _midiSysexEventsIn(0),
+	  _midiEventsOut(0),
 	  _midiSysexEventsOut(0),
 	  _vstEventsToHost(0),
 	  _vstMidiEventsToHost(0),

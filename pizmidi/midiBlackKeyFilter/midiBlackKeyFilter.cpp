@@ -121,7 +121,7 @@ void MidiBlackKeyFilter::getParameterDisplay (VstInt32 index, char *text) {
 	{
 	case kWhiteVelocity:  
 	case kBlackVelocity:
-		sprintf(text, "%d %", roundToInt(param[index]*200.f));
+		sprintf(text, "%d %%", roundToInt(param[index]*200.f));
 		break;
 	case kInChannel:  
 		if (FLOAT_TO_CHANNEL(param[index])==ANY_CHANNEL) vst_strncpy (text, "Any", kVstMaxParamStrLen);

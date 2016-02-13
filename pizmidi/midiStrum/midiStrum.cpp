@@ -266,7 +266,9 @@ void midiStrum::getParameterDisplay(VstInt32 index, char *text){
           else strcpy(text, "Yes");
           break;
       default:
-          sprintf(text, " ", param[index]);
+	// param[index] not actually being used here - ag
+	// sprintf(text, " ", param[index]);
+          sprintf(text, " ");
           break;
     }
 }

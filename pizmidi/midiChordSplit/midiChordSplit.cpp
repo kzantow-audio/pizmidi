@@ -743,7 +743,9 @@ void MidiChordSplit::processMidiEvents(VstMidiEventVec *inputs, VstMidiEventVec 
 					int outch = -1;
 					//int melodych = -1;
 					int stealch = -1;
-					int outn  = voices[outch]-1;
+					// outch is out of range here; from the code below it looks like outn should actually be initialized to -1 (ag)
+					//int outn  = voices[outch]-1;
+					int outn = -1;
 					v stealme;
 					//oldness: older==smaller number
 					if (stealmode==oldest) stealme.oldness=0xFFFFFFFF;

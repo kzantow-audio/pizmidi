@@ -1,10 +1,12 @@
 #ifndef PIZVSTBASE_H
 #define PIZVSTBASE_H
 
-#include "public.sdk/source/vst2.x/audioeffectx.h"
+#include "audioeffectx.h"
 #include <iostream>
 #include <vector>
 #include "CVSTHost.h"
+#include <cstdio>
+#include <cstdlib>
 
 #ifdef _WIN32
 #include <windows.h>
