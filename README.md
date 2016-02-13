@@ -42,7 +42,7 @@ binaries by the original author(s) can be found at
 
 [1]: https://bitbucket.org/agraef/pizmidi
 [2]: http://www.steinberg.net/en/company/developers.html
-[3]: https://aur.archlinux.org/
+[3]: https://aur.archlinux.org/packages/pizmidi-git/
 [4]: http://kxstudio.linuxaudio.org/Repositories:Plugins
 
 Enjoy. :)
